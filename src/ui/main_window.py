@@ -6,8 +6,8 @@ from typing import Dict, List
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 
-from src.core.evaluator import EvaluationError, ExpressionEvaluator
-from src.core.keypad import key_to_button_text
+from core.evaluator import EvaluationError, ExpressionEvaluator
+from core.keypad import key_to_button_text
 
 
 class CalculatorWindow(QtWidgets.QMainWindow):
