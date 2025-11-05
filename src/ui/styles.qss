@@ -1,0 +1,73 @@
+QMainWindow {
+    background-color: #e0e5ec;
+}
+
+QWidget#CentralWidget {
+    background-color: #e0e5ec;
+}
+
+QLineEdit#Display {
+    background: #e0e5ec;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 32px;
+    font-family: "Fira Code", "Courier New", monospace;
+    color: #2b2e3b;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+QPushButton {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #f2f6ff,
+        stop:1 #c7ccd8
+    );
+    border-radius: 20px;
+    color: #2b2e3b;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 14px 18px;
+    border: none;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #fafcff,
+        stop:1 #d5dae4
+    );
+    border: 1px solid rgba(86, 104, 161, 0.25);
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #c7ccd8,
+        stop:1 #f2f6ff
+    );
+}
+
+QPushButton#EqualsButton {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #6b8ceb,
+        stop:1 #4360c0
+    );
+    color: #ffffff;
+}
+
+QPushButton#EqualsButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #7c99f0,
+        stop:1 #4f6ad3
+    );
+}
+
+QPushButton#EqualsButton:pressed {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #4f6ad3,
+        stop:1 #7c99f0
+    );
+}
