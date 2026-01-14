@@ -17,6 +17,7 @@ venv/
 
 # IDE
 .idea/
+.run/
 .vscode/
 .DS_Store
 
